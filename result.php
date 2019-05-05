@@ -33,7 +33,6 @@
         $array1[] = $row_result1;
         }
         $collection = array_column($array1, 'overview');
-        print_r($collection_raw);
 
         #stem all words in overview
         require_once('stemmer.php');
