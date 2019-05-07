@@ -11,7 +11,7 @@
     <a href="search.html" style="text-decoration: none"><button style="display: block;">Go Back</button></a>
 
     <?php
-    $conn = mysqli_connect("localhost:3306","phpmyadmin","wangchaowe","chaoweiw_search");
+    $conn = mysqli_connect("localhost","username","password","table_name");
 
     if(isset($_GET['search'])) {
     $get_value = $_GET['user_query'];
