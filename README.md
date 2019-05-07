@@ -17,7 +17,7 @@ This script is just a very simple front page for user input key words. It keeps 
 - result.php
 In result.php, we firstly connect MySQL database, retrive user typing key words and fetch overview to array collection.
 ```
-$conn = mysqli_connect("localhost:3306","phpmyadmin","wangchaowe","chaoweiw_search");
+$conn = mysqli_connect("localhost","username","password","table_name");
 $get_value = $_GET['user_query'];
 
 $query1 = "select overview from movie2";
