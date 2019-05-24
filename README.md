@@ -136,4 +136,4 @@ return $text;
 }
 ```
 ## Methodology on blog
-https://chaoweiwang6.wixsite.com/website/blog/the-power-of-open-work-space
+https://cwang.netlify.com/post/movie_search_engine/
