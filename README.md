@@ -1,7 +1,7 @@
 # Movie Search Engine
 A movie search engine based on overview developed by php
 
-##Overview
+## Overview
 It is basicly a movie search engine implemented by Tf-idf algorithm. Also Porter Stemming Algorithm is applied to normalize every single word in dictionary.
 
 ## Scripts in detail
